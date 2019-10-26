@@ -1,3 +1,4 @@
+#change file name or it will give you error like :"AttributeError: module 'face_recognition' has no attribute 'load_image_file'"
 import face_recognition
 from PIL import Image, ImageDraw
 
