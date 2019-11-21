@@ -3,11 +3,11 @@ import face_recognition
 from PIL import Image, ImageDraw
 
 
-image_obama = face_recognition.load_image_file("E:\py\known\obama.jpg")
+image_obama = face_recognition.load_image_file("known\obama.jpg")
 obama_encoding= face_recognition.face_encodings(image_obama)[0]
 
 
-image_modi = face_recognition.load_image_file("E:\py\known\modi.jpg")
+image_modi = face_recognition.load_image_file("known\modi.jpg")
 modi_encoding= face_recognition.face_encodings(image_modi)[0]
 
 
